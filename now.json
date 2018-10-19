@@ -1,3 +1,6 @@
 {
-    "alias": ["beta.olbruket.se"]
+    "alias": [
+        "beta-olbruket"
+        ],
+    "type": "npm"
 }
