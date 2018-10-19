@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Website for Olbruket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olbruket/website.git"
+  },
+  "author": "Johannes Mattsson, Simon Sundström, Hampus Rönström, Tobias Alldén",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olbruket/website/issues"
+  },
+  "homepage": "https://github.com/olbruket/website#readme"
+}
