@@ -3,10 +3,6 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import index from './index.css';
 
-
-
-
-
 class Index extends Component {
     render() {
         return (
@@ -21,15 +17,15 @@ class Index extends Component {
                 >
 
                     <Grid item xs={6}>
-                        <Typography component="h4" variant="display4" color={'white'}>
+                        <Typography component="h4" variant="display4" color={'default'}>
                             Hello there!
                         </Typography>
-                    </Grid>   
+                    </Grid>
                     <Grid item xs={6}>
                         <p>This page is under active development, please check back later!</p>
                     </Grid>
 
-                </Grid> 
+                </Grid>
             </div>
         )
     }
