@@ -1,12 +1,12 @@
 import React,{Component} from 'react';
 
 class MemberSignup extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Signup</h1>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <h1>Signup</h1>
+      </div>
+    )
+  }
 }
 export default MemberSignup;
