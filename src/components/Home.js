@@ -1,10 +1,10 @@
-import React,{Component} from 'react';
+import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
 import logo from '../logo.svg';
 
-const Home = () => {
+const Home = () => (
   <div className={'message'} style={{width: '100vw', height: '70vh'}}>
     <Grid
       container
@@ -28,5 +28,6 @@ const Home = () => {
 
     </Grid>
   </div>
-}
+)
+
 export default Home;
