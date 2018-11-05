@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import Index from './components/Index';
 import MemberSignup from './components/MemberSignup';
 
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
