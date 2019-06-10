@@ -3,7 +3,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import { Button } from '@material-ui/core';
+import { Link } from '@material-ui/core';
 import { NavLink } from 'react-router-dom';
 
 const LongMenu = () => {
@@ -34,14 +34,14 @@ const LongMenu = () => {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>
-          <Button
-            to={'/about'}
-            component={NavLink}
-          >
+        <Link
+          button
+
+        >
+          <MenuItem component={NavLink} to={'/about'} onClick={handleClose} style={{ textDecoration: 'none' }}>
             About
-          </Button>
-        </MenuItem>
+          </MenuItem>
+        </Link>
       </Menu>
     </div>
   );
