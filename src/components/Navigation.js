@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { NavLink } from 'react-router-dom';
 
 import { Toolbar, Button, Container, withStyles } from '@material-ui/core';
-
-import logo from '../logo.svg';
+import LongMenu from './Menu';
 
 const styles = {
   toolbarSecondary: {
-    justifyContent: 'space-between',
+    justifyContent: 'end',
     overflowX: 'auto',
   }
 }
@@ -21,16 +19,11 @@ const Navigation = ({ children, classes }) => (
         className={classes.toolbarSecondary}
       >
         <Button
-          to={'/'}
-          component={NavLink}
-        >
-        </Button>
-        <Button
-          to={'/signup'}
-          component={NavLink}
+          href={'https://goo.gl/forms/qXHxqwVzuXZt07Jq1'}
         >
           Become a member!
         </Button>
+        <LongMenu/>
       </Toolbar>
     </Container>
     <div style={ {paddingTop: '5em' }}>
