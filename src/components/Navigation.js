@@ -2,30 +2,37 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
-import { AppBar, Toolbar, Button } from '@material-ui/core';
+import { Toolbar, Button, Container, withStyles } from '@material-ui/core';
 
 import logo from '../logo.svg';
 
-const Navigation = ({ children }) => (
+const styles = {
+  toolbarSecondary: {
+    justifyContent: 'space-between',
+    overflowX: 'auto',
+  }
+}
+
+const Navigation = ({ children, classes }) => (
   <div>
-    <AppBar>
-      <Toolbar>
+    <Container maxWidth="lg">
+      <Toolbar
+        variant="dense"
+        className={classes.toolbarSecondary}
+      >
         <Button
-          link
           to={'/'}
           component={NavLink}
         >
-          <img src={logo} style={ {maxWidth: '7em' }}/>
         </Button>
         <Button
-          link
           to={'/signup'}
           component={NavLink}
         >
           Become a member!
         </Button>
       </Toolbar>
-    </AppBar>
+    </Container>
     <div style={ {paddingTop: '5em' }}>
       {children}
     </div>
@@ -36,4 +43,4 @@ Navigation.propTypes = {
   children: PropTypes.object.isRequired
 }
 
-export default Navigation
+export default withStyles(styles)(Navigation)
