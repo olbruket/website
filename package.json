@@ -13,7 +13,6 @@
     "lint": "eslint --ignore-path .eslintignore . --fix"
   },
   "pre-push": [
-    "test",
     "lint"
   ],
   "eslintConfig": {
