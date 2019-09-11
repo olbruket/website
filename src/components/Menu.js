@@ -39,7 +39,7 @@ const LongMenu = () => {
 
         >
           <MenuItem component={NavLink} to={'/about'} onClick={handleClose} style={{ textDecoration: 'none' }}>
-            About
+            Om oss
           </MenuItem>
         </Link>
       </Menu>
