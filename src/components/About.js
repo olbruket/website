@@ -24,7 +24,7 @@ const Home = () => {
         alignItems="center"
         style={{ minHeight: '60vh' }}
       >
-        <Grid item xs={2}>
+        <Grid item xs={3}>
           <Typography variant='h1'>
             Om oss
           </Typography>
