@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className={classes.root} style={{width: '100vw', height: '60vh'}}>
       <Grid
-        spacing={3}
+        spacing={0}
         container
         direction="column"
         justify="center"
