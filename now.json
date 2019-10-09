@@ -1,6 +1,7 @@
 {
     "alias": [
-        "beta-olbruket"
+        "wwww.olbruket.se",
+        "olbruket"
         ],
         "builds": [
             { "src": "public/*.html", "use": "@now/static" },
