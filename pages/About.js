@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
-import bikes from '../bikes.jpg';
+// import bikes from './images/bikes.jpg';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -37,7 +37,7 @@ const Home = () => {
           </Typography>
         </Grid>
         <Grid item xs={6}>
-          <img src={bikes} alt="Bikes" />
+          {/* <img src={bikes} alt="Bikes" /> */}
         </Grid>
       </Grid>
     </div>
