@@ -1,8 +1,5 @@
 {
     "alias": [
-        "beta-olbruket"
-        ],
-        "builds": [
-            { "src": "*.js", "use": "@now/node" }
-        ]
+        "olbruket", "www.olbruket.se"
+    ]
 }
