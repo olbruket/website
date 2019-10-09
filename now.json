@@ -3,7 +3,6 @@
         "beta-olbruket"
         ],
         "builds": [
-            { "src": "public/*.html", "use": "@now/static" },
-            { "src": "src/*.js", "use": "@now/node" }
+            { "src": "*.js", "use": "@now/node" }
         ]
 }
