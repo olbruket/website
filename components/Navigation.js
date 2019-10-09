@@ -33,7 +33,8 @@ const Navigation = ({ children, classes }) => (
 )
 
 Navigation.propTypes = {
-  children: PropTypes.object.isRequired
+  children: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired
 }
 
 export default withStyles(styles)(Navigation)

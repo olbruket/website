@@ -6,9 +6,8 @@
   },
   "private": true,
   "scripts": {
-    "start": "node scripts/start.js",
-    "dev": "react-scripts start",
-    "build": "node scripts/build.js",
+    "build": "next build",
+    "start": "next start",
     "test": "CI=true node scripts/test.js",
     "lint": "eslint --ignore-path .eslintignore . --fix"
   },
@@ -56,6 +55,7 @@
   "dependencies": {
     "@material-ui/core": "^4.1.0",
     "@material-ui/icons": "^4.2.1",
+    "next": "^9.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",

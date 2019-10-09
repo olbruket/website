@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
-import logo from '../logo.svg';
+// import logo from './logo.svg';
 
 const Home = () => (
   <div className={'message'} style={{width: '100vw', height: '60vh'}}>
@@ -16,7 +16,7 @@ const Home = () => (
     >
       <Grid item xs={6}>
         <div>
-          <img src={logo} alt="Logo" />
+          {/* <img src={logo} alt="Logo" /> */}
           <Typography component="h4" variant="h2">
             Fervorem Credimus
           </Typography>
